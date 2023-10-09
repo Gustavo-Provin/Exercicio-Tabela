@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+
+    table, th, td{
+        border: 1px solid black;
+
+        border-collapse: collapse;
+
+        padding: 30px;
+    }
+
+</style>
+
+<body>
+    <table style="border: 0px solid black;">
+
+        <thead>
+
+            <tr style="border: 0px solid black;">
+                <th style="border: 0px solid black;" ></th>
+                <th style="border: 0px solid black;"></th>
+                <th style="border: 0px solid black;"></th>
+                <th style="border: 0px solid black;"></th>
+            </tr>
+
+            <tr>
+                <th colspan="4">TOPO </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="5" colspan="1">MENU</td>
+                <td rowspan="5"  colspan="3">CONTEUDO</td>
+            </tr>
+
+            <tr><td style="border: 0px solid black;"></td></tr>
+            <tr><td style="border: 0px solid black;"></td></tr>
+            <tr><td style="border: 0px solid black;"></td></tr>
+            <tr><td style="border: 0px solid black;"></td></tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td style="padding: 5px;" colspan="4">RODAPÉ</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
